@@ -1,0 +1,33 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Ignore Feather data files
+user_data/data/binance/*.feather
+
+# Ignore SQLite temp files
+*.sqlite-shm
+*.sqlite-wal
+tradesv3.dryrun.sqlite
+
+# Ignore Freqtrade pickle results
+hyperopt_results/*.pkl
+hyperopt_results/.last_result.json
+hyperopt_results/*.fthypt
+
+# Ignore environment variables and sensitive data
+.config.json
+.env*
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore backtest results zip files (too large, can be regenerated)
+user_data/backtest_results/*.zip
+
+# Ignore Jupyter notebook checkpoints
+*.ipynb_checkpoints/

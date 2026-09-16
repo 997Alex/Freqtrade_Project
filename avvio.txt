@@ -1,0 +1,1 @@
+cd C:\Users\Ale\Desktop\Freqtrade_Project ; python -m freqtrade trade -c user_data\config.json --dry-run --strategy EmaRsiTrendStrategy

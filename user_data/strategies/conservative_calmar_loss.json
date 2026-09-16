@@ -1,0 +1,31 @@
+{
+  "strategy_name": "EmaRsiTrendStrategyHyperoptV2",
+  "params": {
+    "roi": {
+      "0": 0.08,
+      "60": 0.04,
+      "180": 0.02,
+      "720": 0.01
+    },
+    "max_open_trades": {
+      "max_open_trades": 4
+    },
+    "buy": {
+      "buy_rsi": 31
+    },
+    "sell": {
+      "sell_rsi": 68
+    },
+    "stoploss": {
+      "stoploss": -0.034
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.017,
+      "trailing_stop_positive_offset": 0.055,
+      "trailing_only_offset_is_reached": true
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2026-09-15 22:30:54.690620+00:00"
+}

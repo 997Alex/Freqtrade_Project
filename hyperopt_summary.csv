@@ -1,0 +1,6 @@
+file,loss,trade_count,profit_total_pct,max_drawdown_pct,param_buy_rsi,param_sell_rsi
+strategy_EmaRsiTrendStrategyHyperopt_2026-09-15_20-54-58.fthypt,n/d,2,1.62,n/d,24,75
+strategy_EmaRsiTrendStrategyHyperopt_2026-09-15_21-03-22.fthypt,n/d,2,0.74,n/d,24,67
+strategy_EmaRsiTrendStrategyHyperopt_2026-09-15_21-05-25.fthypt,n/d,2,1.03,n/d,24,64
+strategy_EmaRsiTrendStrategyHyperopt_2026-09-15_21-07-27.fthypt,n/d,37,3.36,n/d,30,68
+strategy_EmaRsiTrendStrategyHyperopt_2026-09-15_21-09-25.fthypt,n/d,2,1.69,n/d,24,75

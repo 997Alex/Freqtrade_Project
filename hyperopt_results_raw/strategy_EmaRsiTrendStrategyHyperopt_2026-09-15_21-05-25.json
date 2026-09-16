@@ -1,0 +1,23 @@
+{
+  "params": {
+    "buy_rsi": 24,
+    "sell_rsi": 64
+  },
+  "minimal_roi": {
+    "0": 0.556,
+    "129": 0.185,
+    "824": 0.059,
+    "1491": 0
+  },
+  "stoploss": -0.312,
+  "trailing_stop": true,
+  "trailing_stop_positive": 0.261,
+  "trailing_stop_positive_offset": 0.268,
+  "trailing_only_offset_is_reached": false,
+  "max_open_trades": 4,
+  "results_metrics": {
+    "trade_count": 2,
+    "profit_total_pct": 1.03,
+    "max_drawdown_pct": 0.0
+  }
+}
